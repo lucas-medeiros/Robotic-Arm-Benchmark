@@ -1,0 +1,4042 @@
+Model {
+  Name			  "RobotSystem_2"
+  Version		  5.0
+  SaveDefaultBlockParams  on
+  SampleTimeColors	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ExecutionOrder	  off
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  DataTypeOverride	  "UseLocalSettings"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  BlockNameDataTip	  off
+  BlockParametersDataTip  on
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  Created		  "Wed Oct 20 21:23:03 1999"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "STMO"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Sun Jun 06 23:57:31 2004"
+  ModelVersionFormat	  "1.%<AutoIncrement:258>"
+  ConfigurationManager	  "none"
+  SimParamPage		  "Solver"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  ExtModeMexFile	  "ext_comm"
+  ExtModeBatchMode	  off
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "oneshot"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  off
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  RTWExpressionDepthLimit 5
+  SimulationMode	  "normal"
+  Solver		  "ode45"
+  SolverMode		  "Auto"
+  StartTime		  "0.0"
+  StopTime		  "SimulationTime"
+  MaxOrder		  5
+  MaxStep		  "auto"
+  MinStep		  "auto"
+  MaxNumMinSteps	  "-1"
+  InitialStep		  "auto"
+  FixedStep		  "auto"
+  RelTol		  "1e-3"
+  AbsTol		  "auto"
+  OutputOption		  "RefineOutputTimes"
+  OutputTimes		  "[]"
+  Refine		  "1"
+  LoadExternalInput	  off
+  ExternalInput		  "[t, u]"
+  LoadInitialState	  off
+  InitialState		  "xInitial"
+  SaveTime		  on
+  TimeSaveName		  "tout"
+  SaveState		  off
+  StateSaveName		  "xout"
+  SaveOutput		  on
+  OutputSaveName	  "yout"
+  SaveFinalState	  off
+  FinalStateName	  "xFinal"
+  SaveFormat		  "Array"
+  Decimation		  "1"
+  LimitDataPoints	  off
+  MaxDataPoints		  "1000"
+  SignalLoggingName	  "sigsOut"
+  ConsistencyChecking	  "none"
+  ArrayBoundsChecking	  "none"
+  AlgebraicLoopMsg	  "warning"
+  BlockPriorityViolationMsg "warning"
+  MinStepSizeMsg	  "warning"
+  InheritedTsInSrcMsg	  "warning"
+  DiscreteInheritContinuousMsg "warning"
+  MultiTaskRateTransMsg	  "error"
+  SingleTaskRateTransMsg  "none"
+  CheckForMatrixSingularity "none"
+  IntegerOverflowMsg	  "warning"
+  Int32ToFloatConvMsg	  "warning"
+  ParameterDowncastMsg	  "error"
+  ParameterOverflowMsg	  "error"
+  ParameterPrecisionLossMsg "warning"
+  UnderSpecifiedDataTypeMsg "none"
+  UnnecessaryDatatypeConvMsg "none"
+  VectorMatrixConversionMsg "none"
+  InvalidFcnCallConnMsg	  "error"
+  SignalLabelMismatchMsg  "none"
+  UnconnectedInputMsg	  "warning"
+  UnconnectedOutputMsg	  "warning"
+  UnconnectedLineMsg	  "warning"
+  SfunCompatibilityCheckMsg "none"
+  RTWInlineParameters	  off
+  BlockReductionOpt	  off
+  BooleanDataType	  off
+  ConditionallyExecuteInputs on
+  ParameterPooling	  on
+  OptimizeBlockIOStorage  on
+  ZeroCross		  on
+  AssertionControl	  "UseLocalSettings"
+  ProdHWDeviceType	  "Microprocessor"
+  ProdHWWordLengths	  "8,16,32,32"
+  RTWSystemTargetFile	  "grt.tlc"
+  RTWTemplateMakefile	  "grt_default_tmf"
+  RTWMakeCommand	  "make_rtw"
+  RTWGenerateCodeOnly	  off
+  RTWRetainRTWFile	  off
+  TLCProfiler		  off
+  TLCDebug		  off
+  TLCCoverage		  off
+  TLCAssertion		  off
+  BlockDefaults {
+    Orientation		    "right"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Clock
+      DisplayTime	      off
+    }
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      ShowAdditionalParam     off
+      OutDataTypeMode	      "Inherit from 'Constant value'"
+      OutDataType	      "sfix(16)"
+      ConRadixGroup	      "Use specified scaling"
+      OutScaling	      "2^0"
+    }
+    Block {
+      BlockType		      DiscreteTransferFcn
+      Numerator		      "[1]"
+      Denominator	      "[1 0.5]"
+      SampleTime	      "1"
+      Realization	      "auto"
+      RTWStateStorageClass    "Auto"
+    }
+    Block {
+      BlockType		      Fcn
+      Expr		      "sin(u[1])"
+    }
+    Block {
+      BlockType		      Gain
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      ShowAdditionalParam     off
+      ParameterDataTypeMode   "Same as input"
+      ParameterDataType	      "sfix(16)"
+      ParameterScalingMode    "Best Precision: Matrix-wise"
+      ParameterScaling	      "2^0"
+      OutDataTypeMode	      "Same as input"
+      OutDataType	      "sfix(16)"
+      OutScaling	      "2^0"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      PortDimensions	      "-1"
+      SampleTime	      "-1"
+      ShowAdditionalParam     off
+      LatchInput	      off
+      DataType		      "auto"
+      OutDataType	      "sfix(16)"
+      OutScaling	      "2^0"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Integrator
+      ExternalReset	      "none"
+      InitialConditionSource  "internal"
+      InitialCondition	      "0"
+      LimitOutput	      off
+      UpperSaturationLimit    "inf"
+      LowerSaturationLimit    "-inf"
+      ShowSaturationPort      off
+      ShowStatePort	      off
+      AbsoluteTolerance	      "auto"
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      Lookup
+      InputValues	      "[-4:5]"
+      OutputValues	      " rand(1,10)-0.5"
+      ShowAdditionalParam     off
+      LookUpMeth	      "Interpolation-Extrapolation"
+      OutDataTypeMode	      "Same as input"
+      OutDataType	      "sfix(16)"
+      OutScaling	      "2^0"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      Product
+      Inputs		      "2"
+      Multiplication	      "Element-wise(.*)"
+      ShowAdditionalParam     off
+      InputSameDT	      on
+      OutDataTypeMode	      "Same as first input"
+      OutDataType	      "sfix(16)"
+      OutScaling	      "2^0"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      RandomNumber
+      Mean		      "0"
+      Variance		      "1"
+      Seed		      "0"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Saturate
+      UpperLimit	      "0.5"
+      LowerLimit	      "-0.5"
+      LinearizeAsGain	      on
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      Scope
+      Floating		      off
+      ModelBased	      off
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      Grid		      "on"
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "0"
+    }
+    Block {
+      BlockType		      Step
+      Time		      "1"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      on
+      Permissions	      "ReadWrite"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      MinMaxOverflowLogging   "UseLocalSettings"
+    }
+    Block {
+      BlockType		      Sum
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      ShowAdditionalParam     off
+      InputSameDT	      on
+      OutDataTypeMode	      "Same as first input"
+      OutDataType	      "sfix(16)"
+      OutScaling	      "2^0"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+    }
+    Block {
+      BlockType		      Switch
+      Criteria		      "u2 >= Threshold"
+      Threshold		      "0"
+      ShowAdditionalParam     off
+      InputSameDT	      on
+      OutDataTypeMode	      "Inherit via internal rule"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      Terminator
+    }
+    Block {
+      BlockType		      ToWorkspace
+      VariableName	      "simulink_output"
+      MaxDataPoints	      "1000"
+      Decimation	      "1"
+      SampleTime	      "0"
+    }
+    Block {
+      BlockType		      TransportDelay
+      DelayTime		      "1"
+      InitialInput	      "0"
+      BufferSize	      "1024"
+      PadeOrder		      "0"
+      TransDelayFeedthrough   off
+    }
+    Block {
+      BlockType		      Trigonometry
+      Operator		      "sin"
+      OutputSignalType	      "auto"
+    }
+    Block {
+      BlockType		      ZeroOrderHold
+      SampleTime	      "1"
+    }
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  System {
+    Name		    "RobotSystem_2"
+    Location		    [82, 116, 972, 545]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    Block {
+      BlockType		      Reference
+      Name		      "Band-Limited\nWhite Noise"
+      Ports		      [0, 1]
+      Position		      [590, 325, 620, 355]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
+      SourceType	      "Continuous White Noise."
+      Cov		      "[NoiseP]"
+      Ts		      "NoiseTs"
+      seed		      "[23341]"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Controller 2"
+      Ports		      [2, 1]
+      Position		      [150, 213, 265, 277]
+      TreatAsAtomicUnit	      off
+      System {
+	Name			"Controller 2"
+	Location		[11, 82, 1016, 722]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Position Reference"
+	  Position		  [35, 313, 65, 327]
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Motor Position"
+	  Position		  [600, 475, 630, 485]
+	  Orientation		  "left"
+	  NamePlacement		  "alternate"
+	  Port			  "2"
+	}
+	Block {
+	  BlockType		  DiscreteTransferFcn
+	  Name			  "Derivative"
+	  Position		  [255, 239, 355, 281]
+	  Numerator		  "[1 -1]"
+	  Denominator		  "[SampleTime 0]"
+	  SampleTime		  "SampleTime"
+	}
+	Block {
+	  BlockType		  DiscreteTransferFcn
+	  Name			  "Filter"
+	  Position		  [390, 238, 470, 282]
+	  Numerator		  "[(1-FF) 0]"
+	  Denominator		  "[1 -FF]"
+	  SampleTime		  "SampleTime"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain"
+	  Position		  [195, 173, 225, 207]
+	  Gain			  "KI"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain1"
+	  Position		  [195, 244, 230, 276]
+	  Gain			  "KD"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain2"
+	  Position		  [195, 304, 230, 336]
+	  Gain			  "KP"
+	}
+	Block {
+	  BlockType		  DiscreteTransferFcn
+	  Name			  "Integral"
+	  Position		  [265, 169, 365, 211]
+	  Numerator		  "[SampleTime 0]"
+	  Denominator		  "[1 -1]"
+	  SampleTime		  "SampleTime"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum"
+	  Ports			  [3, 1]
+	  Position		  [595, 269, 625, 341]
+	  ShowName		  off
+	  Inputs		  "|+++"
+	  InputSameDT		  off
+	  OutDataTypeMode	  "Inherit via internal rule"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum3"
+	  Ports			  [2, 1]
+	  Position		  [115, 310, 135, 330]
+	  ShowName		  off
+	  IconShape		  "round"
+	  Inputs		  "|+-"
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "TorqueLimitation1"
+	  Position		  [675, 285, 705, 315]
+	  UpperLimit		  "TorqueLimitMax"
+	  LowerLimit		  "TorqueLimitMin"
+	}
+	Block {
+	  BlockType		  ZeroOrderHold
+	  Name			  "Zero-Order\nHold"
+	  Position		  [340, 460, 380, 500]
+	  Orientation		  "left"
+	  NamePlacement		  "alternate"
+	  SampleTime		  "SampleTime"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Torque"
+	  Position		  [755, 293, 785, 307]
+	}
+	Line {
+	  SrcBlock		  "Motor Position"
+	  SrcPort		  1
+	  DstBlock		  "Zero-Order\nHold"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Position Reference"
+	  SrcPort		  1
+	  DstBlock		  "Sum3"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "TorqueLimitation1"
+	  SrcPort		  1
+	  DstBlock		  "Torque"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Zero-Order\nHold"
+	  SrcPort		  1
+	  Points		  [-210, 0]
+	  DstBlock		  "Sum3"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "Sum"
+	  SrcPort		  1
+	  Points		  [0, -5]
+	  DstBlock		  "TorqueLimitation1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Integral"
+	  SrcPort		  1
+	  Points		  [175, 0; 0, 100]
+	  DstBlock		  "Sum"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Derivative"
+	  SrcPort		  1
+	  DstBlock		  "Filter"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  DstBlock		  "Integral"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Gain1"
+	  SrcPort		  1
+	  DstBlock		  "Derivative"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Gain2"
+	  SrcPort		  1
+	  Points		  [345, 0]
+	  DstBlock		  "Sum"
+	  DstPort		  3
+	}
+	Line {
+	  SrcBlock		  "Sum3"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  Branch {
+	    DstBlock		    "Gain2"
+	    DstPort		    1
+	  }
+	  Branch {
+	    Points		    [0, -60]
+	    Branch {
+	      Points		      [0, -70]
+	      DstBlock		      "Gain"
+	      DstPort		      1
+	    }
+	    Branch {
+	      DstBlock		      "Gain1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Line {
+	  SrcBlock		  "Filter"
+	  SrcPort		  1
+	  Points		  [60, 0; 0, 55]
+	  DstBlock		  "Sum"
+	  DstPort		  2
+	}
+      }
+    }
+    Block {
+      BlockType		      TransportDelay
+      Name		      "Delay"
+      Position		      [400, 295, 430, 325]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      DelayTime		      "DelayTime"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Disturbance Generator"
+      Ports		      [0, 3]
+      Position		      [255, 80, 340, 140]
+      TreatAsAtomicUnit	      off
+      System {
+	Name			"Disturbance Generator"
+	Location		[12, 74, 1004, 719]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Chirp Motor"
+	  Ports			  [0, 1]
+	  Position		  [35, 165, 85, 195]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "f1 [Hz]|f2 [Hz]|T1 [s]|T2 [s]|Amplitude"
+	  MaskStyleString	  "edit,edit,edit,edit,edit"
+	  MaskTunableValueString  "on,on,on,on,on"
+	  MaskCallbackString	  "||||"
+	  MaskEnableString	  "on,on,on,on,on"
+	  MaskVisibilityString	  "on,on,on,on,on"
+	  MaskToolTipString	  "on,on,on,on,on"
+	  MaskVarAliasString	  ",,,,"
+	  MaskVariables		  "f1=@1;f2=@2;T1=@3;T2=@4;Amp=@5;"
+	  MaskDisplay		  "disp('Chirp')"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "MotorDisturbanceChirpStartFrequency1|MotorD"
+"isturbanceChirpEndFrequency1|MotorDisturbanceChirpStartTime1|MotorDisturbance"
+"ChirpEndTime1|MotorDisturbanceChirpAmplitude1"
+	  System {
+	    Name		    "Dist Chirp Motor"
+	    Location		    [127, 169, 927, 397]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Clock
+	      Name		      "Clock"
+	      Position		      [35, 75, 55, 95]
+	      ShowName		      off
+	      Decimation	      "10"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain"
+	      Position		      [665, 99, 725, 131]
+	      Gain		      "Amp"
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product"
+	      Ports		      [2, 1]
+	      Position		      [285, 100, 310, 180]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product1"
+	      Ports		      [2, 1]
+	      Position		      [405, 57, 430, 168]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product2"
+	      Ports		      [2, 1]
+	      Position		      [235, 139, 260, 181]
+	      ShowName		      off
+	      Inputs		      "*/"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [350, 130, 370, 150]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum2"
+	      Ports		      [2, 1]
+	      Position		      [95, 75, 115, 95]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum3"
+	      Ports		      [2, 1]
+	      Position		      [95, 160, 115, 180]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "-+|"
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch"
+	      Position		      [545, 110, 575, 140]
+	      Threshold		      "T1"
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch1"
+	      Position		      [615, 100, 645, 130]
+	      Threshold		      "T2"
+	    }
+	    Block {
+	      BlockType		      Trigonometry
+	      Name		      "Trigonometric\nFunction"
+	      Ports		      [1, 1]
+	      Position		      [460, 105, 505, 125]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "deltaFreq"
+	      Position		      [135, 140, 205, 160]
+	      ShowName		      off
+	      Value		      "pi*(f2-f1)"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "initialFreq"
+	      Position		      [335, 180, 385, 200]
+	      Orientation	      "up"
+	      ShowName		      off
+	      Value		      "2*pi*f1"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "startTime"
+	      Position		      [25, 115, 65, 135]
+	      Value		      "T1"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime"
+	      Position		      [25, 160, 65, 180]
+	      Value		      "T2"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime1"
+	      Position		      [460, 160, 500, 180]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime2"
+	      Position		      [545, 40, 585, 60]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      Position		      [745, 108, 775, 122]
+	    }
+	    Line {
+	      SrcBlock		      "startTime"
+	      SrcPort		      1
+	      Points		      [0, 0; 35, 0]
+	      Branch {
+		DstBlock		"Sum3"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"Sum2"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Sum2"
+	      SrcPort		      1
+	      Points		      [0, 0; 125, 0]
+	      Branch {
+		Points			[0, 35]
+		DstBlock		"Product"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"Product1"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Product1"
+	      SrcPort		      1
+	      DstBlock		      "Trigonometric\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Product1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum3"
+	      SrcPort		      1
+	      DstBlock		      "Product2"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "deltaFreq"
+	      SrcPort		      1
+	      DstBlock		      "Product2"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Product2"
+	      SrcPort		      1
+	      DstBlock		      "Product"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "targetTime"
+	      SrcPort		      1
+	      DstBlock		      "Sum3"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Clock"
+	      SrcPort		      1
+	      Points		      [0, 0; 10, 0]
+	      Branch {
+		DstBlock		"Sum2"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, -60; 455, 0; 0, 65]
+		Branch {
+		  Points		  [0, 35]
+		  DstBlock		  "Switch"
+		  DstPort		  2
+		}
+		Branch {
+		  Points		  [60, 0; 0, 25]
+		  DstBlock		  "Switch1"
+		  DstPort		  2
+		}
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "initialFreq"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Product"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Trigonometric\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Switch"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "targetTime1"
+	      SrcPort		      1
+	      Points		      [0, -35]
+	      DstBlock		      "Switch"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Switch"
+	      SrcPort		      1
+	      DstBlock		      "Switch1"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Switch1"
+	      SrcPort		      1
+	      DstBlock		      "Gain"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "targetTime2"
+	      SrcPort		      1
+	      Points		      [10, 0]
+	      DstBlock		      "Switch1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Chirp Motor1"
+	  Ports			  [0, 1]
+	  Position		  [30, 340, 80, 370]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "f1 [Hz]|f2 [Hz]|T1 [s]|T2 [s]|Amplitude"
+	  MaskStyleString	  "edit,edit,edit,edit,edit"
+	  MaskTunableValueString  "on,on,on,on,on"
+	  MaskCallbackString	  "||||"
+	  MaskEnableString	  "on,on,on,on,on"
+	  MaskVisibilityString	  "on,on,on,on,on"
+	  MaskToolTipString	  "on,on,on,on,on"
+	  MaskVarAliasString	  ",,,,"
+	  MaskVariables		  "f1=@1;f2=@2;T1=@3;T2=@4;Amp=@5;"
+	  MaskDisplay		  "disp('Chirp')"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "MotorDisturbanceChirpStartFrequency2|MotorD"
+"isturbanceChirpEndFrequency2|MotorDisturbanceChirpStartTime2|MotorDisturbance"
+"ChirpEndTime2|MotorDisturbanceChirpAmplitude2"
+	  System {
+	    Name		    "Dist Chirp Motor1"
+	    Location		    [127, 169, 927, 397]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Clock
+	      Name		      "Clock"
+	      Position		      [35, 75, 55, 95]
+	      ShowName		      off
+	      Decimation	      "10"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain"
+	      Position		      [665, 99, 725, 131]
+	      Gain		      "Amp"
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product"
+	      Ports		      [2, 1]
+	      Position		      [285, 100, 310, 180]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product1"
+	      Ports		      [2, 1]
+	      Position		      [405, 57, 430, 168]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product2"
+	      Ports		      [2, 1]
+	      Position		      [235, 139, 260, 181]
+	      ShowName		      off
+	      Inputs		      "*/"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [350, 130, 370, 150]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum2"
+	      Ports		      [2, 1]
+	      Position		      [95, 75, 115, 95]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum3"
+	      Ports		      [2, 1]
+	      Position		      [95, 160, 115, 180]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "-+|"
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch"
+	      Position		      [545, 110, 575, 140]
+	      Threshold		      "T1"
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch1"
+	      Position		      [615, 100, 645, 130]
+	      Threshold		      "T2"
+	    }
+	    Block {
+	      BlockType		      Trigonometry
+	      Name		      "Trigonometric\nFunction"
+	      Ports		      [1, 1]
+	      Position		      [460, 105, 505, 125]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "deltaFreq"
+	      Position		      [135, 140, 205, 160]
+	      ShowName		      off
+	      Value		      "pi*(f2-f1)"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "initialFreq"
+	      Position		      [335, 180, 385, 200]
+	      Orientation	      "up"
+	      ShowName		      off
+	      Value		      "2*pi*f1"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "startTime"
+	      Position		      [25, 115, 65, 135]
+	      Value		      "T1"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime"
+	      Position		      [25, 160, 65, 180]
+	      Value		      "T2"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime1"
+	      Position		      [460, 160, 500, 180]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime2"
+	      Position		      [545, 40, 585, 60]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      Position		      [745, 108, 775, 122]
+	    }
+	    Line {
+	      SrcBlock		      "startTime"
+	      SrcPort		      1
+	      Points		      [0, 0; 35, 0]
+	      Branch {
+		DstBlock		"Sum3"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"Sum2"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Sum2"
+	      SrcPort		      1
+	      Points		      [0, 0; 125, 0]
+	      Branch {
+		Points			[0, 35]
+		DstBlock		"Product"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"Product1"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Product1"
+	      SrcPort		      1
+	      DstBlock		      "Trigonometric\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Product1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum3"
+	      SrcPort		      1
+	      DstBlock		      "Product2"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "deltaFreq"
+	      SrcPort		      1
+	      DstBlock		      "Product2"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Product2"
+	      SrcPort		      1
+	      DstBlock		      "Product"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "targetTime"
+	      SrcPort		      1
+	      DstBlock		      "Sum3"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Clock"
+	      SrcPort		      1
+	      Points		      [0, 0; 10, 0]
+	      Branch {
+		DstBlock		"Sum2"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, -60; 455, 0; 0, 65]
+		Branch {
+		  Points		  [0, 35]
+		  DstBlock		  "Switch"
+		  DstPort		  2
+		}
+		Branch {
+		  Points		  [60, 0; 0, 25]
+		  DstBlock		  "Switch1"
+		  DstPort		  2
+		}
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "initialFreq"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Product"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Trigonometric\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Switch"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "targetTime1"
+	      SrcPort		      1
+	      Points		      [0, -35]
+	      DstBlock		      "Switch"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Switch"
+	      SrcPort		      1
+	      DstBlock		      "Switch1"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Switch1"
+	      SrcPort		      1
+	      DstBlock		      "Gain"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "targetTime2"
+	      SrcPort		      1
+	      Points		      [10, 0]
+	      DstBlock		      "Switch1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Chirp Tool"
+	  Ports			  [0, 1]
+	  Position		  [565, 300, 615, 330]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "f1 [Hz]|f2 [Hz]|T1 [s]|T2 [s]|Amplitude"
+	  MaskStyleString	  "edit,edit,edit,edit,edit"
+	  MaskTunableValueString  "on,on,on,on,on"
+	  MaskCallbackString	  "||||"
+	  MaskEnableString	  "on,on,on,on,on"
+	  MaskVisibilityString	  "on,on,on,on,on"
+	  MaskToolTipString	  "on,on,on,on,on"
+	  MaskVarAliasString	  ",,,,"
+	  MaskVariables		  "f1=@1;f2=@2;T1=@3;T2=@4;Amp=@5;"
+	  MaskDisplay		  "disp('Chirp')"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "ToolDisturbanceChirpStartFrequency1|ToolDis"
+"turbanceChirpEndFrequency1|ToolDisturbanceChirpStartTime1|ToolDisturbanceChir"
+"pEndTime1|ToolDisturbanceChirpAmplitude1"
+	  System {
+	    Name		    "Dist Chirp Tool"
+	    Location		    [127, 169, 927, 397]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Clock
+	      Name		      "Clock"
+	      Position		      [35, 75, 55, 95]
+	      ShowName		      off
+	      Decimation	      "10"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain"
+	      Position		      [665, 99, 725, 131]
+	      Gain		      "Amp"
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product"
+	      Ports		      [2, 1]
+	      Position		      [285, 100, 310, 180]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product1"
+	      Ports		      [2, 1]
+	      Position		      [405, 57, 430, 168]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product2"
+	      Ports		      [2, 1]
+	      Position		      [235, 139, 260, 181]
+	      ShowName		      off
+	      Inputs		      "*/"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [350, 130, 370, 150]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum2"
+	      Ports		      [2, 1]
+	      Position		      [95, 75, 115, 95]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum3"
+	      Ports		      [2, 1]
+	      Position		      [95, 160, 115, 180]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "-+|"
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch"
+	      Position		      [545, 110, 575, 140]
+	      Threshold		      "T1"
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch1"
+	      Position		      [615, 100, 645, 130]
+	      Threshold		      "T2"
+	    }
+	    Block {
+	      BlockType		      Trigonometry
+	      Name		      "Trigonometric\nFunction"
+	      Ports		      [1, 1]
+	      Position		      [460, 105, 505, 125]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "deltaFreq"
+	      Position		      [135, 140, 205, 160]
+	      ShowName		      off
+	      Value		      "pi*(f2-f1)"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "initialFreq"
+	      Position		      [335, 180, 385, 200]
+	      Orientation	      "up"
+	      ShowName		      off
+	      Value		      "2*pi*f1"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "startTime"
+	      Position		      [25, 115, 65, 135]
+	      Value		      "T1"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime"
+	      Position		      [25, 160, 65, 180]
+	      Value		      "T2"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime1"
+	      Position		      [460, 160, 500, 180]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime2"
+	      Position		      [545, 40, 585, 60]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      Position		      [745, 108, 775, 122]
+	    }
+	    Line {
+	      SrcBlock		      "startTime"
+	      SrcPort		      1
+	      Points		      [0, 0; 35, 0]
+	      Branch {
+		DstBlock		"Sum3"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"Sum2"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Sum2"
+	      SrcPort		      1
+	      Points		      [0, 0; 125, 0]
+	      Branch {
+		Points			[0, 35]
+		DstBlock		"Product"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"Product1"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Product1"
+	      SrcPort		      1
+	      DstBlock		      "Trigonometric\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Product1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum3"
+	      SrcPort		      1
+	      DstBlock		      "Product2"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "deltaFreq"
+	      SrcPort		      1
+	      DstBlock		      "Product2"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Product2"
+	      SrcPort		      1
+	      DstBlock		      "Product"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "targetTime"
+	      SrcPort		      1
+	      DstBlock		      "Sum3"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Clock"
+	      SrcPort		      1
+	      Points		      [0, 0; 10, 0]
+	      Branch {
+		DstBlock		"Sum2"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, -60; 455, 0; 0, 65]
+		Branch {
+		  Points		  [0, 35]
+		  DstBlock		  "Switch"
+		  DstPort		  2
+		}
+		Branch {
+		  Points		  [60, 0; 0, 25]
+		  DstBlock		  "Switch1"
+		  DstPort		  2
+		}
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "initialFreq"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Product"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Trigonometric\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Switch"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "targetTime1"
+	      SrcPort		      1
+	      Points		      [0, -35]
+	      DstBlock		      "Switch"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Switch"
+	      SrcPort		      1
+	      DstBlock		      "Switch1"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Switch1"
+	      SrcPort		      1
+	      DstBlock		      "Gain"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "targetTime2"
+	      SrcPort		      1
+	      Points		      [10, 0]
+	      DstBlock		      "Switch1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Chirp Tool1"
+	  Ports			  [0, 1]
+	  Position		  [565, 495, 615, 525]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "f1 [Hz]|f2 [Hz]|T1 [s]|T2 [s]|Amplitude"
+	  MaskStyleString	  "edit,edit,edit,edit,edit"
+	  MaskTunableValueString  "on,on,on,on,on"
+	  MaskCallbackString	  "||||"
+	  MaskEnableString	  "on,on,on,on,on"
+	  MaskVisibilityString	  "on,on,on,on,on"
+	  MaskToolTipString	  "on,on,on,on,on"
+	  MaskVarAliasString	  ",,,,"
+	  MaskVariables		  "f1=@1;f2=@2;T1=@3;T2=@4;Amp=@5;"
+	  MaskDisplay		  "disp('Chirp')"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "ToolDisturbanceChirpStartFrequency2|ToolDis"
+"turbanceChirpEndFrequency2|ToolDisturbanceChirpStartTime2|ToolDisturbanceChir"
+"pEndTime2|ToolDisturbanceChirpAmplitude2"
+	  System {
+	    Name		    "Dist Chirp Tool1"
+	    Location		    [127, 169, 927, 397]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Clock
+	      Name		      "Clock"
+	      Position		      [35, 75, 55, 95]
+	      ShowName		      off
+	      Decimation	      "10"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain"
+	      Position		      [665, 99, 725, 131]
+	      Gain		      "Amp"
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product"
+	      Ports		      [2, 1]
+	      Position		      [285, 100, 310, 180]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product1"
+	      Ports		      [2, 1]
+	      Position		      [405, 57, 430, 168]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Product
+	      Name		      "Product2"
+	      Ports		      [2, 1]
+	      Position		      [235, 139, 260, 181]
+	      ShowName		      off
+	      Inputs		      "*/"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [350, 130, 370, 150]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum2"
+	      Ports		      [2, 1]
+	      Position		      [95, 75, 115, 95]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum3"
+	      Ports		      [2, 1]
+	      Position		      [95, 160, 115, 180]
+	      ShowName		      off
+	      IconShape		      "round"
+	      Inputs		      "-+|"
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch"
+	      Position		      [545, 110, 575, 140]
+	      Threshold		      "T1"
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch1"
+	      Position		      [615, 100, 645, 130]
+	      Threshold		      "T2"
+	    }
+	    Block {
+	      BlockType		      Trigonometry
+	      Name		      "Trigonometric\nFunction"
+	      Ports		      [1, 1]
+	      Position		      [460, 105, 505, 125]
+	      ShowName		      off
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "deltaFreq"
+	      Position		      [135, 140, 205, 160]
+	      ShowName		      off
+	      Value		      "pi*(f2-f1)"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "initialFreq"
+	      Position		      [335, 180, 385, 200]
+	      Orientation	      "up"
+	      ShowName		      off
+	      Value		      "2*pi*f1"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "startTime"
+	      Position		      [25, 115, 65, 135]
+	      Value		      "T1"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime"
+	      Position		      [25, 160, 65, 180]
+	      Value		      "T2"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime1"
+	      Position		      [460, 160, 500, 180]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "targetTime2"
+	      Position		      [545, 40, 585, 60]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      Position		      [745, 108, 775, 122]
+	    }
+	    Line {
+	      SrcBlock		      "startTime"
+	      SrcPort		      1
+	      Points		      [0, 0; 35, 0]
+	      Branch {
+		DstBlock		"Sum3"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"Sum2"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Sum2"
+	      SrcPort		      1
+	      Points		      [0, 0; 125, 0]
+	      Branch {
+		Points			[0, 35]
+		DstBlock		"Product"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"Product1"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Product1"
+	      SrcPort		      1
+	      DstBlock		      "Trigonometric\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Product1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum3"
+	      SrcPort		      1
+	      DstBlock		      "Product2"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "deltaFreq"
+	      SrcPort		      1
+	      DstBlock		      "Product2"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Product2"
+	      SrcPort		      1
+	      DstBlock		      "Product"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "targetTime"
+	      SrcPort		      1
+	      DstBlock		      "Sum3"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Clock"
+	      SrcPort		      1
+	      Points		      [0, 0; 10, 0]
+	      Branch {
+		DstBlock		"Sum2"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, -60; 455, 0; 0, 65]
+		Branch {
+		  Points		  [0, 35]
+		  DstBlock		  "Switch"
+		  DstPort		  2
+		}
+		Branch {
+		  Points		  [60, 0; 0, 25]
+		  DstBlock		  "Switch1"
+		  DstPort		  2
+		}
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "initialFreq"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Product"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Trigonometric\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Switch"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "targetTime1"
+	      SrcPort		      1
+	      Points		      [0, -35]
+	      DstBlock		      "Switch"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Switch"
+	      SrcPort		      1
+	      DstBlock		      "Switch1"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Switch1"
+	      SrcPort		      1
+	      DstBlock		      "Gain"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "targetTime2"
+	      SrcPort		      1
+	      Points		      [10, 0]
+	      DstBlock		      "Switch1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Torque Motor 1"
+	  Ports			  [0, 1]
+	  Position		  [35, 59, 90, 101]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "Disturbance Torque|Pulse On Time|Pulse Off "
+"Time"
+	  MaskStyleString	  "edit,edit,edit"
+	  MaskTunableValueString  "on,on,on"
+	  MaskCallbackString	  "||"
+	  MaskEnableString	  "on,on,on"
+	  MaskVisibilityString	  "on,on,on"
+	  MaskToolTipString	  "on,on,on"
+	  MaskVarAliasString	  ",,"
+	  MaskVariables		  "torque=@1;t1=@2;t2=@3;"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "MotorDisturbance1|MotorDisturbanceOn1|Motor"
+"DisturbanceOff1"
+	  System {
+	    Name		    "Dist Torque Motor 1"
+	    Location		    [128, 390, 488, 617]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist Off"
+	      Position		      [35, 110, 65, 140]
+	      Time		      "t2"
+	      After		      "-torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist On"
+	      Position		      [35, 165, 65, 195]
+	      Time		      "t1"
+	      After		      "torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [120, 122, 140, 198]
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Dist Torque"
+	      Position		      [175, 153, 205, 167]
+	    }
+	    Line {
+	      SrcBlock		      "Dist On"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Dist Off"
+	      SrcPort		      1
+	      Points		      [35, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Dist Torque"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Torque Motor 2"
+	  Ports			  [0, 1]
+	  Position		  [35, 114, 90, 156]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "Disturbance Torque|Pulse On Time|Pulse Off "
+"Time"
+	  MaskStyleString	  "edit,edit,edit"
+	  MaskTunableValueString  "on,on,on"
+	  MaskCallbackString	  "||"
+	  MaskEnableString	  "on,on,on"
+	  MaskVisibilityString	  "on,on,on"
+	  MaskToolTipString	  "on,on,on"
+	  MaskVarAliasString	  ",,"
+	  MaskVariables		  "torque=@1;t1=@2;t2=@3;"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "MotorDisturbance2|MotorDisturbanceOn2|Motor"
+"DisturbanceOff2"
+	  System {
+	    Name		    "Dist Torque Motor 2"
+	    Location		    [128, 390, 488, 617]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist Off"
+	      Position		      [35, 110, 65, 140]
+	      Time		      "t2"
+	      After		      "-torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist On"
+	      Position		      [35, 165, 65, 195]
+	      Time		      "t1"
+	      After		      "torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [120, 122, 140, 198]
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Dist Torque"
+	      Position		      [175, 153, 205, 167]
+	    }
+	    Line {
+	      SrcBlock		      "Dist On"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Dist Off"
+	      SrcPort		      1
+	      Points		      [35, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Dist Torque"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Torque Motor 3"
+	  Ports			  [0, 1]
+	  Position		  [30, 209, 85, 251]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "Disturbance Torque|Pulse On Time|Pulse Off "
+"Time"
+	  MaskStyleString	  "edit,edit,edit"
+	  MaskTunableValueString  "on,on,on"
+	  MaskCallbackString	  "||"
+	  MaskEnableString	  "on,on,on"
+	  MaskVisibilityString	  "on,on,on"
+	  MaskToolTipString	  "on,on,on"
+	  MaskVarAliasString	  ",,"
+	  MaskVariables		  "torque=@1;t1=@2;t2=@3;"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "MotorDisturbance3|MotorDisturbanceOn3|Motor"
+"DisturbanceOff3"
+	  System {
+	    Name		    "Dist Torque Motor 3"
+	    Location		    [128, 390, 488, 617]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist Off"
+	      Position		      [35, 110, 65, 140]
+	      Time		      "t2"
+	      After		      "-torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist On"
+	      Position		      [35, 165, 65, 195]
+	      Time		      "t1"
+	      After		      "torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [120, 122, 140, 198]
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Dist Torque"
+	      Position		      [175, 153, 205, 167]
+	    }
+	    Line {
+	      SrcBlock		      "Dist On"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Dist Off"
+	      SrcPort		      1
+	      Points		      [35, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Dist Torque"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Torque Motor 4"
+	  Ports			  [0, 1]
+	  Position		  [30, 269, 85, 311]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "Disturbance Torque|Pulse On Time|Pulse Off "
+"Time"
+	  MaskStyleString	  "edit,edit,edit"
+	  MaskTunableValueString  "on,on,on"
+	  MaskCallbackString	  "||"
+	  MaskEnableString	  "on,on,on"
+	  MaskVisibilityString	  "on,on,on"
+	  MaskToolTipString	  "on,on,on"
+	  MaskVarAliasString	  ",,"
+	  MaskVariables		  "torque=@1;t1=@2;t2=@3;"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "MotorDisturbance4|MotorDisturbanceOn4|Motor"
+"DisturbanceOff4"
+	  System {
+	    Name		    "Dist Torque Motor 4"
+	    Location		    [128, 390, 488, 617]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist Off"
+	      Position		      [35, 110, 65, 140]
+	      Time		      "t2"
+	      After		      "-torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist On"
+	      Position		      [35, 165, 65, 195]
+	      Time		      "t1"
+	      After		      "torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [120, 122, 140, 198]
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Dist Torque"
+	      Position		      [175, 153, 205, 167]
+	    }
+	    Line {
+	      SrcBlock		      "Dist On"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Dist Off"
+	      SrcPort		      1
+	      Points		      [35, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Dist Torque"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Torque Tool"
+	  Ports			  [0, 1]
+	  Position		  [565, 229, 620, 271]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "Disturbance Torque|Pulse On Time|Pulse Off "
+"Time"
+	  MaskStyleString	  "edit,edit,edit"
+	  MaskTunableValueString  "on,on,on"
+	  MaskCallbackString	  "||"
+	  MaskEnableString	  "on,on,on"
+	  MaskVisibilityString	  "on,on,on"
+	  MaskToolTipString	  "on,on,on"
+	  MaskVarAliasString	  ",,"
+	  MaskVariables		  "torque=@1;t1=@2;t2=@3;"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "ToolDisturbance1|ToolDisturbanceOn1|ToolDis"
+"turbanceOff1"
+	  System {
+	    Name		    "Dist Torque Tool"
+	    Location		    [128, 390, 488, 617]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist Off"
+	      Position		      [35, 110, 65, 140]
+	      Time		      "t2"
+	      After		      "-torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist On"
+	      Position		      [35, 165, 65, 195]
+	      Time		      "t1"
+	      After		      "torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [120, 122, 140, 198]
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Dist Torque"
+	      Position		      [175, 153, 205, 167]
+	    }
+	    Line {
+	      SrcBlock		      "Dist On"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Dist Off"
+	      SrcPort		      1
+	      Points		      [35, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Dist Torque"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Torque Tool 1"
+	  Ports			  [0, 1]
+	  Position		  [565, 359, 620, 401]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "Disturbance Torque|Pulse On Time|Pulse Off "
+"Time"
+	  MaskStyleString	  "edit,edit,edit"
+	  MaskTunableValueString  "on,on,on"
+	  MaskCallbackString	  "||"
+	  MaskEnableString	  "on,on,on"
+	  MaskVisibilityString	  "on,on,on"
+	  MaskToolTipString	  "on,on,on"
+	  MaskVarAliasString	  ",,"
+	  MaskVariables		  "torque=@1;t1=@2;t2=@3;"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "ToolDisturbance2|ToolDisturbanceOn2|ToolDis"
+"turbanceOff2"
+	  System {
+	    Name		    "Dist Torque Tool 1"
+	    Location		    [128, 390, 488, 617]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist Off"
+	      Position		      [35, 110, 65, 140]
+	      Time		      "t2"
+	      After		      "-torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist On"
+	      Position		      [35, 165, 65, 195]
+	      Time		      "t1"
+	      After		      "torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [120, 122, 140, 198]
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Dist Torque"
+	      Position		      [175, 153, 205, 167]
+	    }
+	    Line {
+	      SrcBlock		      "Dist On"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Dist Off"
+	      SrcPort		      1
+	      Points		      [35, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Dist Torque"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Dist Torque Tool 2"
+	  Ports			  [0, 1]
+	  Position		  [565, 424, 620, 466]
+	  TreatAsAtomicUnit	  off
+	  MaskPromptString	  "Disturbance Torque|Pulse On Time|Pulse Off "
+"Time"
+	  MaskStyleString	  "edit,edit,edit"
+	  MaskTunableValueString  "on,on,on"
+	  MaskCallbackString	  "||"
+	  MaskEnableString	  "on,on,on"
+	  MaskVisibilityString	  "on,on,on"
+	  MaskToolTipString	  "on,on,on"
+	  MaskVarAliasString	  ",,"
+	  MaskVariables		  "torque=@1;t1=@2;t2=@3;"
+	  MaskIconFrame		  on
+	  MaskIconOpaque	  on
+	  MaskIconRotate	  "none"
+	  MaskIconUnits		  "autoscale"
+	  MaskValueString	  "ToolDisturbance3|ToolDisturbanceOn3|ToolDis"
+"turbanceOff3"
+	  System {
+	    Name		    "Dist Torque Tool 2"
+	    Location		    [128, 390, 488, 617]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist Off"
+	      Position		      [35, 110, 65, 140]
+	      Time		      "t2"
+	      After		      "-torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Step
+	      Name		      "Dist On"
+	      Position		      [35, 165, 65, 195]
+	      Time		      "t1"
+	      After		      "torque"
+	      SampleTime	      "0"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [120, 122, 140, 198]
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Dist Torque"
+	      Position		      [175, 153, 205, 167]
+	    }
+	    Line {
+	      SrcBlock		      "Dist On"
+	      SrcPort		      1
+	      DstBlock		      "Sum1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Dist Off"
+	      SrcPort		      1
+	      Points		      [35, 0]
+	      DstBlock		      "Sum1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Dist Torque"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "Motor Dist"
+	  Position		  [525, 80, 585, 110]
+	  VariableName		  "MotorDist"
+	  MaxDataPoints		  "inf"
+	  SampleTime		  "-1"
+	  SaveFormat		  "StructureWithTime"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum1"
+	  Ports			  [6, 1]
+	  Position		  [395, 14, 475, 326]
+	  ShowName		  off
+	  Inputs		  "|++++++"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum2"
+	  Ports			  [5, 1]
+	  Position		  [715, 167, 800, 563]
+	  ShowName		  off
+	  Inputs		  "|+++++"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "Tool Dist"
+	  Position		  [880, 275, 940, 305]
+	  VariableName		  "ToolDist"
+	  MaxDataPoints		  "inf"
+	  SampleTime		  "-1"
+	  SaveFormat		  "StructureWithTime"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Motor Disturbance"
+	  Position		  [535, 163, 565, 177]
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Tool Disturbance"
+	  Position		  [870, 343, 900, 357]
+	  Port			  "2"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Rms Torque Adjust"
+	  Position		  [320, 468, 350, 482]
+	  Port			  "3"
+	}
+	Line {
+	  SrcBlock		  "Dist Torque Motor 1"
+	  SrcPort		  1
+	  DstBlock		  "Sum1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Dist Torque Tool"
+	  SrcPort		  1
+	  DstBlock		  "Sum2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Dist Chirp Motor"
+	  SrcPort		  1
+	  Points		  [290, 0]
+	  DstBlock		  "Sum1"
+	  DstPort		  3
+	}
+	Line {
+	  SrcBlock		  "Dist Chirp Tool"
+	  SrcPort		  1
+	  DstBlock		  "Sum2"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "Sum1"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  Branch {
+	    Points		    [0, -75]
+	    DstBlock		    "Motor Dist"
+	    DstPort		    1
+	  }
+	  Branch {
+	    DstBlock		    "Motor Disturbance"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Sum2"
+	  SrcPort		  1
+	  Points		  [0, -15; 40, 0]
+	  Branch {
+	    DstBlock		    "Tool Disturbance"
+	    DstPort		    1
+	  }
+	  Branch {
+	    Points		    [0, -60]
+	    DstBlock		    "Tool Dist"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Dist Torque Motor 3"
+	  SrcPort		  1
+	  Points		  [290, 0]
+	  DstBlock		  "Sum1"
+	  DstPort		  4
+	}
+	Line {
+	  SrcBlock		  "Dist Torque Motor 2"
+	  SrcPort		  1
+	  Points		  [85, 0]
+	  Branch {
+	    Points		    [200, 0]
+	    DstBlock		    "Sum1"
+	    DstPort		    2
+	  }
+	  Branch {
+	    Points		    [0, 340]
+	    DstBlock		    "Rms Torque Adjust"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Dist Torque Tool 1"
+	  SrcPort		  1
+	  DstBlock		  "Sum2"
+	  DstPort		  3
+	}
+	Line {
+	  SrcBlock		  "Dist Torque Motor 4"
+	  SrcPort		  1
+	  Points		  [145, 0; 0, -30]
+	  DstBlock		  "Sum1"
+	  DstPort		  5
+	}
+	Line {
+	  SrcBlock		  "Dist Chirp Motor1"
+	  SrcPort		  1
+	  Points		  [145, 0; 0, -50]
+	  DstBlock		  "Sum1"
+	  DstPort		  6
+	}
+	Line {
+	  SrcBlock		  "Dist Chirp Tool1"
+	  SrcPort		  1
+	  Points		  [80, 0]
+	  DstBlock		  "Sum2"
+	  DstPort		  5
+	}
+	Line {
+	  SrcBlock		  "Dist Torque Tool 2"
+	  SrcPort		  1
+	  DstBlock		  "Sum2"
+	  DstPort		  4
+	}
+      }
+    }
+    Block {
+      BlockType		      Gain
+      Name		      "Gain for Stability Check"
+      Position		      [170, 53, 225, 87]
+      Gain		      "Gain"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Reference Position"
+      Position		      [60, 215, 90, 245]
+      Value		      "0"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Robot"
+      Ports		      [3, 2]
+      Position		      [365, 61, 510, 119]
+      TreatAsAtomicUnit	      off
+      System {
+	Name			"Robot"
+	Location		[2, 173, 968, 529]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Motor Torque"
+	  Position		  [25, 75, 55, 85]
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Dist Trq Motor"
+	  Position		  [20, 145, 50, 155]
+	  Port			  "2"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Dist Trq Tool"
+	  Position		  [20, 215, 50, 225]
+	  Port			  "3"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Four Mass Modell"
+	  Ports			  [3, 8]
+	  Position		  [140, 41, 285, 254]
+	  NamePlacement		  "alternate"
+	  TreatAsAtomicUnit	  off
+	  System {
+	    Name		    "Four Mass Modell"
+	    Location		    [40, 76, 785, 746]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Motor Torque"
+	      Position		      [25, 33, 55, 47]
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Dist Torque Motor"
+	      Position		      [25, 68, 55, 82]
+	      Port		      "2"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Dist Torque Arm"
+	      Position		      [30, 673, 60, 687]
+	      Port		      "3"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      Position		      [60, 365, 90, 395]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant1"
+	      Position		      [50, 505, 80, 535]
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain"
+	      Position		      [250, 27, 305, 63]
+	      Gain		      "1/Jm"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain1"
+	      Position		      [250, 352, 305, 388]
+	      Gain		      "1/Ja1"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain10"
+	      Position		      [505, 580, 565, 620]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      Gain		      "k3"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain11"
+	      Position		      [360, 560, 420, 600]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      Gain		      "d3"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain12"
+	      Position		      [195, 590, 255, 630]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      Gain		      "fa3"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain2"
+	      Position		      [255, 492, 310, 528]
+	      Gain		      "1/Ja2"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain3"
+	      Position		      [320, 150, 380, 190]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      Gain		      "d1"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain4"
+	      Position		      [305, 95, 365, 135]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      Gain		      "fm"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain5"
+	      Position		      [320, 230, 380, 270]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      Gain		      "fa1"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain6"
+	      Position		      [250, 652, 305, 688]
+	      Gain		      "1/Ja3"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain7"
+	      Position		      [510, 420, 570, 460]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      Gain		      "k2"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain8"
+	      Position		      [365, 400, 425, 440]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      Gain		      "d2"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain9"
+	      Position		      [200, 430, 260, 470]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      Gain		      "fa2"
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator"
+	      Ports		      [1, 1]
+	      Position		      [355, 30, 385, 60]
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator1"
+	      Ports		      [1, 1]
+	      Position		      [515, 30, 545, 60]
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator2"
+	      Ports		      [1, 1]
+	      Position		      [355, 355, 385, 385]
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator3"
+	      Ports		      [1, 1]
+	      Position		      [520, 340, 550, 370]
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator4"
+	      Ports		      [1, 1]
+	      Position		      [360, 495, 390, 525]
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator5"
+	      Ports		      [1, 1]
+	      Position		      [515, 495, 545, 525]
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator6"
+	      Ports		      [1, 1]
+	      Position		      [355, 655, 385, 685]
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator7"
+	      Ports		      [1, 1]
+	      Position		      [510, 655, 540, 685]
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "Subsystem1"
+	      Ports		      [1, 1]
+	      Position		      [480, 194, 580, 226]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      TreatAsAtomicUnit	      off
+	      MaskPromptString	      "Dphi1 [bm arm side]|Stiffness at dphi1|"
+"Dphi2 [bm arm side]|Stiffness at dphi2|Backlash (bm on arm side)|Scale (n/60/"
+"180*pi if dphi & backlash in [bm arm])"
+	      MaskStyleString	      "edit,edit,edit,edit,edit,edit"
+	      MaskTunableValueString  "on,on,on,on,on,on"
+	      MaskCallbackString      "|||||"
+	      MaskEnableString	      "on,on,on,on,on,on"
+	      MaskVisibilityString    "on,on,on,on,on,on"
+	      MaskToolTipString	      "on,on,on,on,on,on"
+	      MaskVarAliasString      ",,,,,"
+	      MaskVariables	      "dp1=@1;k1=@2;dp2=@3;k2=@4;gl=@5;scale=@"
+"6;"
+	      MaskInitialization      "dp1=dp1*scale;\ndp2=dp2*scale;\ngl=gl*s"
+"cale;\ndx=(dp2-dp1)/4;\ndk=(k2-k1)/4;\nx1=gl/2;\nx2=x1+dx;\nx3=x2+dx;\nx4=x3+"
+"dx;\nx5=x4+dx;\nx6=x5+dx;\ny1=0;\ny2=y1+dx*k1;\ny3=y2+dx*(k1+dk);\ny4=y3+dx*("
+"k1+2*dk);\ny5=y4+dx*(k1+3*dk);\ny6=y5+dx*(k1+4*dk);"
+	      MaskDisplay	      "disp('Nonlinear Spring')"
+	      MaskIconFrame	      on
+	      MaskIconOpaque	      on
+	      MaskIconRotate	      "none"
+	      MaskIconUnits	      "autoscale"
+	      MaskValueString	      "k1_low_pos|k1_low|k1_pos|k1|0.0|gear_ra"
+"tio/60/180*pi"
+	      System {
+		Name			"Subsystem1"
+		Location		[8, 74, 397, 252]
+		Open			off
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"A4"
+		PaperUnits		"centimeters"
+		ZoomFactor		"100"
+		Block {
+		  BlockType		  Inport
+		  Name			  "Pos"
+		  Position		  [25, 68, 55, 82]
+		}
+		Block {
+		  BlockType		  Lookup
+		  Name			  "Look-Up\nTable"
+		  Position		  [80, 26, 230, 124]
+		  InputValues		  "[-x6 -x5 -x4 -x3 -x2 -x1 0 x1 x2 x3"
+" x4 x5 x6]"
+		  OutputValues		  "[-y6 -y5 -y4 -y3 -y2 0 0 0 y2 y3 y4"
+" y5 y6]"
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "Trq"
+		  Position		  [260, 68, 290, 82]
+		}
+		Line {
+		  SrcBlock		  "Look-Up\nTable"
+		  SrcPort		  1
+		  DstBlock		  "Trq"
+		  DstPort		  1
+		}
+		Line {
+		  SrcBlock		  "Pos"
+		  SrcPort		  1
+		  DstBlock		  "Look-Up\nTable"
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum1"
+	      Ports		      [2, 1]
+	      Position		      [595, 192, 615, 228]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum10"
+	      Ports		      [2, 1]
+	      Position		      [450, 402, 470, 438]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum11"
+	      Ports		      [2, 1]
+	      Position		      [310, 402, 330, 438]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum12"
+	      Ports		      [3, 1]
+	      Position		      [140, 434, 160, 506]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+--"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum13"
+	      Ports		      [2, 1]
+	      Position		      [145, 222, 165, 258]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum14"
+	      Ports		      [2, 1]
+	      Position		      [440, 562, 460, 598]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum15"
+	      Ports		      [2, 1]
+	      Position		      [305, 562, 325, 598]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum16"
+	      Ports		      [2, 1]
+	      Position		      [135, 562, 155, 598]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum17"
+	      Ports		      [2, 1]
+	      Position		      [130, 652, 150, 688]
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum18"
+	      Ports		      [2, 1]
+	      Position		      [590, 582, 610, 618]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum2"
+	      Ports		      [2, 1]
+	      Position		      [410, 152, 430, 188]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum3"
+	      Ports		      [2, 1]
+	      Position		      [270, 152, 290, 188]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum4"
+	      Ports		      [2, 1]
+	      Position		      [205, 102, 225, 138]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|--"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum5"
+	      Ports		      [2, 1]
+	      Position		      [205, 222, 225, 258]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum6"
+	      Ports		      [3, 1]
+	      Position		      [140, 27, 160, 63]
+	      ShowName		      off
+	      Inputs		      "|+++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum7"
+	      Ports		      [2, 1]
+	      Position		      [130, 352, 150, 388]
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum8"
+	      Ports		      [2, 1]
+	      Position		      [135, 492, 155, 528]
+	      ShowName		      off
+	      Inputs		      "|++"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Sum9"
+	      Ports		      [2, 1]
+	      Position		      [595, 427, 615, 463]
+	      Orientation	      "left"
+	      NamePlacement	      "alternate"
+	      ShowName		      off
+	      Inputs		      "|+-"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "pos motor"
+	      Position		      [690, 38, 720, 52]
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "pos arm1"
+	      Position		      [685, 348, 715, 362]
+	      Port		      "2"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "pos arm2"
+	      Position		      [690, 503, 720, 517]
+	      Port		      "3"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "pos arm 3"
+	      Position		      [685, 663, 715, 677]
+	      Port		      "4"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "spd motor"
+	      Position		      [580, 13, 610, 27]
+	      Port		      "5"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "spd arm 1"
+	      Position		      [510, 298, 540, 312]
+	      Port		      "6"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "spd arm 2"
+	      Position		      [510, 458, 540, 472]
+	      Port		      "7"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "spd arm 3"
+	      Position		      [505, 618, 535, 632]
+	      Port		      "8"
+	    }
+	    Line {
+	      SrcBlock		      "Gain"
+	      SrcPort		      1
+	      DstBlock		      "Integrator"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum6"
+	      SrcPort		      1
+	      DstBlock		      "Gain"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Motor Torque"
+	      SrcPort		      1
+	      DstBlock		      "Sum6"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Integrator1"
+	      SrcPort		      1
+	      Points		      [0, 0; 115, 0]
+	      Branch {
+		Labels			[1, 0]
+		Points			[0, 165]
+		DstBlock		"Sum1"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"pos motor"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Gain4"
+	      SrcPort		      1
+	      DstBlock		      "Sum4"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Integrator"
+	      SrcPort		      1
+	      Points		      [0, 0; 20, 0]
+	      Branch {
+		Points			[45, 0]
+		Branch {
+		  Points		  [0, 125]
+		  DstBlock		  "Sum2"
+		  DstPort		  1
+		}
+		Branch {
+		  Points		  [25, 0]
+		  Branch {
+		    DstBlock		    "Integrator1"
+		    DstPort		    1
+		  }
+		  Branch {
+		    Points		    [0, -25]
+		    DstBlock		    "spd motor"
+		    DstPort		    1
+		  }
+		}
+	      }
+	      Branch {
+		Points			[0, 70]
+		DstBlock		"Gain4"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Gain2"
+	      SrcPort		      1
+	      DstBlock		      "Integrator4"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain1"
+	      SrcPort		      1
+	      DstBlock		      "Integrator2"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum2"
+	      SrcPort		      1
+	      DstBlock		      "Gain3"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Integrator2"
+	      SrcPort		      1
+	      Points		      [0, -15; 25, 0]
+	      Branch {
+		Points			[40, 0]
+		Branch {
+		  Points		  [0, -175]
+		  DstBlock		  "Sum2"
+		  DstPort		  2
+		}
+		Branch {
+		  Points		  [15, 0]
+		  Branch {
+		    Points		    [20, 0]
+		    Branch {
+		    DstBlock		    "Integrator3"
+		    DstPort		    1
+		    }
+		    Branch {
+		    Points		    [0, 65]
+		    DstBlock		    "Sum10"
+		    DstPort		    1
+		    }
+		  }
+		  Branch {
+		    Points		    [0, -50]
+		    DstBlock		    "spd arm 1"
+		    DstPort		    1
+		  }
+		}
+	      }
+	      Branch {
+		Points			[0, -105]
+		DstBlock		"Gain5"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Gain3"
+	      SrcPort		      1
+	      DstBlock		      "Sum3"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain5"
+	      SrcPort		      1
+	      DstBlock		      "Sum5"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum3"
+	      SrcPort		      1
+	      Points		      [0, 0; -20, 0]
+	      Branch {
+		Points			[-5, 0]
+		DstBlock		"Sum4"
+		DstPort			2
+	      }
+	      Branch {
+		Points			[0, 70]
+		DstBlock		"Sum5"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Sum7"
+	      SrcPort		      1
+	      DstBlock		      "Gain1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "Sum7"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Subsystem1"
+	      SrcPort		      1
+	      Points		      [-160, 0; 0, -30]
+	      DstBlock		      "Sum3"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum1"
+	      SrcPort		      1
+	      DstBlock		      "Subsystem1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum8"
+	      SrcPort		      1
+	      DstBlock		      "Gain2"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Constant1"
+	      SrcPort		      1
+	      DstBlock		      "Sum8"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum9"
+	      SrcPort		      1
+	      DstBlock		      "Gain7"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Integrator3"
+	      SrcPort		      1
+	      Points		      [0, 0; 95, 0]
+	      Branch {
+		Points			[15, 0]
+		Branch {
+		  Points		  [0, -135]
+		  DstBlock		  "Sum1"
+		  DstPort		  2
+		}
+		Branch {
+		  DstBlock		  "pos arm1"
+		  DstPort		  1
+		}
+	      }
+	      Branch {
+		Points			[0, 90]
+		DstBlock		"Sum9"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Integrator5"
+	      SrcPort		      1
+	      Points		      [0, 0; 85, 0]
+	      Branch {
+		Points			[20, 0]
+		Branch {
+		  DstBlock		  "pos arm2"
+		  DstPort		  1
+		}
+		Branch {
+		  Points		  [0, -55]
+		  DstBlock		  "Sum9"
+		  DstPort		  2
+		}
+	      }
+	      Branch {
+		Points			[0, 90]
+		DstBlock		"Sum18"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Sum10"
+	      SrcPort		      1
+	      DstBlock		      "Gain8"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain8"
+	      SrcPort		      1
+	      DstBlock		      "Sum11"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain7"
+	      SrcPort		      1
+	      Points		      [-10, 0; 0, 15; -135, 0; 0, -25]
+	      DstBlock		      "Sum11"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum12"
+	      SrcPort		      1
+	      Points		      [-15, 0]
+	      DstBlock		      "Sum8"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain9"
+	      SrcPort		      1
+	      DstBlock		      "Sum12"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Integrator4"
+	      SrcPort		      1
+	      Points		      [0, 0; 10, 0]
+	      Branch {
+		Points			[0, -45; -125, 0; 0, -15]
+		DstBlock		"Gain9"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[25, 0]
+		Branch {
+		  Points		  [45, 0]
+		  Branch {
+		    Points		    [10, 0]
+		    Branch {
+		    DstBlock		    "Integrator5"
+		    DstPort		    1
+		    }
+		    Branch {
+		    DstBlock		    "Sum10"
+		    DstPort		    2
+		    }
+		  }
+		  Branch {
+		    DstBlock		    "Sum14"
+		    DstPort		    1
+		  }
+		}
+		Branch {
+		  Points		  [0, -45]
+		  DstBlock		  "spd arm 2"
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Sum5"
+	      SrcPort		      1
+	      DstBlock		      "Sum13"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum13"
+	      SrcPort		      1
+	      Points		      [-25, 0]
+	      DstBlock		      "Sum7"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum11"
+	      SrcPort		      1
+	      Points		      [0, 0; -120, 0]
+	      Branch {
+		Points			[-10, 0]
+		DstBlock		"Sum12"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, -170]
+		DstBlock		"Sum13"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Dist Torque Motor"
+	      SrcPort		      1
+	      Points		      [30, 0; 0, -25]
+	      DstBlock		      "Sum6"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum4"
+	      SrcPort		      1
+	      Points		      [-85, 0; 0, -60]
+	      DstBlock		      "Sum6"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Gain6"
+	      SrcPort		      1
+	      DstBlock		      "Integrator6"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Sum17"
+	      SrcPort		      1
+	      DstBlock		      "Gain6"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Dist Torque Arm"
+	      SrcPort		      1
+	      DstBlock		      "Sum17"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum18"
+	      SrcPort		      1
+	      DstBlock		      "Gain10"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Integrator7"
+	      SrcPort		      1
+	      Points		      [0, 0; 105, 0]
+	      Branch {
+		DstBlock		"pos arm 3"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, -60]
+		DstBlock		"Sum18"
+		DstPort			2
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Sum14"
+	      SrcPort		      1
+	      DstBlock		      "Gain11"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain11"
+	      SrcPort		      1
+	      DstBlock		      "Sum15"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain10"
+	      SrcPort		      1
+	      Points		      [-10, 0; 0, 15; -135, 0; 0, -25]
+	      DstBlock		      "Sum15"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Sum16"
+	      SrcPort		      1
+	      Points		      [-15, 0]
+	      DstBlock		      "Sum17"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Gain12"
+	      SrcPort		      1
+	      Points		      [-20, 0]
+	      DstBlock		      "Sum16"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Integrator6"
+	      SrcPort		      1
+	      Points		      [0, 0; 10, 0]
+	      Branch {
+		Points			[0, -45; -125, 0; 0, -15]
+		DstBlock		"Gain12"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[50, 0]
+		Branch {
+		  Points		  [30, 0]
+		  Branch {
+		    DstBlock		    "Integrator7"
+		    DstPort		    1
+		  }
+		  Branch {
+		    Points		    [0, -80]
+		    DstBlock		    "Sum14"
+		    DstPort		    2
+		  }
+		}
+		Branch {
+		  Points		  [0, -45]
+		  DstBlock		  "spd arm 3"
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Sum15"
+	      SrcPort		      1
+	      Points		      [0, 0; -110, 0]
+	      Branch {
+		DstBlock		"Sum16"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, -95]
+		DstBlock		"Sum12"
+		DstPort			3
+	      }
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum1"
+	  Ports			  [3, 1]
+	  Position		  [545, 84, 580, 196]
+	  ShowName		  off
+	  Inputs		  "|+++"
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "Terminator"
+	  Position		  [315, 225, 335, 245]
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "Terminator1"
+	  Position		  [350, 200, 370, 220]
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "Terminator2"
+	  Position		  [315, 175, 335, 195]
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "Terminator3"
+	  Position		  [315, 150, 335, 170]
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "gear"
+	  Position		  [620, 112, 715, 158]
+	  Gain			  "1/gear_ratio"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "l1"
+	  Position		  [430, 68, 500, 102]
+	  Gain			  "len1"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "l2"
+	  Position		  [430, 118, 500, 152]
+	  Gain			  "len2"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "l3"
+	  Position		  [430, 178, 500, 212]
+	  Gain			  "len3"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Pos Motor"
+	  Position		  [385, 53, 415, 67]
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Pos Tool"
+	  Position		  [740, 128, 770, 142]
+	  Port			  "2"
+	}
+	Line {
+	  SrcBlock		  "Motor Torque"
+	  SrcPort		  1
+	  DstBlock		  "Four Mass Modell"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Dist Trq Tool"
+	  SrcPort		  1
+	  DstBlock		  "Four Mass Modell"
+	  DstPort		  3
+	}
+	Line {
+	  SrcBlock		  "Dist Trq Motor"
+	  SrcPort		  1
+	  DstBlock		  "Four Mass Modell"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "Four Mass Modell"
+	  SrcPort		  1
+	  DstBlock		  "Pos Motor"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Four Mass Modell"
+	  SrcPort		  8
+	  DstBlock		  "Terminator"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Four Mass Modell"
+	  SrcPort		  7
+	  DstBlock		  "Terminator1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Four Mass Modell"
+	  SrcPort		  6
+	  DstBlock		  "Terminator2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Four Mass Modell"
+	  SrcPort		  5
+	  DstBlock		  "Terminator3"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Four Mass Modell"
+	  SrcPort		  3
+	  Points		  [125, 0]
+	  DstBlock		  "l2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Four Mass Modell"
+	  SrcPort		  2
+	  DstBlock		  "l1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Four Mass Modell"
+	  SrcPort		  4
+	  Points		  [105, 0; 0, 60]
+	  DstBlock		  "l3"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "l1"
+	  SrcPort		  1
+	  Points		  [10, 0; 0, 25]
+	  DstBlock		  "Sum1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "l2"
+	  SrcPort		  1
+	  DstBlock		  "Sum1"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "l3"
+	  SrcPort		  1
+	  Points		  [10, 0; 0, -10]
+	  DstBlock		  "Sum1"
+	  DstPort		  3
+	}
+	Line {
+	  SrcBlock		  "gear"
+	  SrcPort		  1
+	  DstBlock		  "Pos Tool"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Sum1"
+	  SrcPort		  1
+	  Points		  [0, -5]
+	  DstBlock		  "gear"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Sum
+      Name		      "Sum"
+      Ports		      [2, 1]
+      Position		      [470, 262, 510, 358]
+      Orientation	      "left"
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Inputs		      "|++"
+      InputSameDT	      off
+      OutDataTypeMode	      "Inherit via internal rule"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      Name		      "Tool Position"
+      Position		      [530, 90, 590, 120]
+      VariableName	      "ToolPos"
+      MaxDataPoints	      "inf"
+      SampleTime	      "-1"
+      SaveFormat	      "StructureWithTime"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "TorqueComputation"
+      Ports		      [2]
+      Position		      [370, 221, 460, 254]
+      TreatAsAtomicUnit	      off
+      System {
+	Name			"TorqueComputation"
+	Location		[275, 385, 935, 857]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "Rms Torque Adjust"
+	  Position		  [120, 113, 150, 127]
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Motor Torque"
+	  Position		  [120, 183, 150, 197]
+	  Port			  "2"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "MotorTorque"
+	  Position		  [225, 175, 285, 205]
+	  VariableName		  "Torque"
+	  MaxDataPoints		  "inf"
+	  SampleTime		  "-1"
+	  SaveFormat		  "StructureWithTime"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "RMSTorque"
+	  Position		  [350, 103, 410, 137]
+	  VariableName		  "RmsTorque"
+	  MaxDataPoints		  "inf"
+	  SampleTime		  "-1"
+	  SaveFormat		  "StructureWithTime"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Rms Comp"
+	  Ports			  [1, 1]
+	  Position		  [290, 102, 330, 138]
+	  TreatAsAtomicUnit	  off
+	  System {
+	    Name		    "Rms Comp"
+	    Location		    [367, 315, 920, 675]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In"
+	      Position		      [25, 33, 55, 47]
+	    }
+	    Block {
+	      BlockType		      Fcn
+	      Name		      "Fcn1"
+	      Position		      [90, 25, 150, 55]
+	      Expr		      "u[1]*u[1]"
+	    }
+	    Block {
+	      BlockType		      Fcn
+	      Name		      "Fcn2"
+	      Position		      [220, 24, 355, 56]
+	      Expr		      "sqrt(u(1)/SimulationTime)"
+	    }
+	    Block {
+	      BlockType		      Integrator
+	      Name		      "Integrator1"
+	      Ports		      [1, 1]
+	      Position		      [170, 25, 200, 55]
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out"
+	      Position		      [395, 33, 425, 47]
+	    }
+	    Line {
+	      SrcBlock		      "Fcn1"
+	      SrcPort		      1
+	      DstBlock		      "Integrator1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "In"
+	      SrcPort		      1
+	      DstBlock		      "Fcn1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Fcn2"
+	      SrcPort		      1
+	      DstBlock		      "Out"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Integrator1"
+	      SrcPort		      1
+	      DstBlock		      "Fcn2"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Scope
+	  Name			  "Scope"
+	  Ports			  [1]
+	  Position		  [330, 34, 360, 66]
+	  Location		  [514, 195, 838, 434]
+	  Open			  on
+	  NumInputPorts		  "1"
+	  List {
+	    ListType		    AxesTitles
+	    axes1		    "%<SignalLabel>"
+	  }
+	  List {
+	    ListType		    SelectedSignals
+	    axes1		    ""
+	  }
+	  DataFormat		  "StructureWithTime"
+	  LimitDataPoints	  off
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum"
+	  Ports			  [2, 1]
+	  Position		  [245, 101, 265, 139]
+	  ShowName		  off
+	  Inputs		  "|++"
+	  InputSameDT		  off
+	  OutDataTypeMode	  "Inherit via internal rule"
+	}
+	Line {
+	  SrcBlock		  "Rms Comp"
+	  SrcPort		  1
+	  DstBlock		  "RMSTorque"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Sum"
+	  SrcPort		  1
+	  Points		  [0, 0]
+	  Branch {
+	    DstBlock		    "Rms Comp"
+	    DstPort		    1
+	  }
+	  Branch {
+	    Points		    [0, -70]
+	    DstBlock		    "Scope"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Rms Torque Adjust"
+	  SrcPort		  1
+	  DstBlock		  "Sum"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Motor Torque"
+	  SrcPort		  1
+	  Points		  [35, 0]
+	  Branch {
+	    Points		    [0, -60]
+	    DstBlock		    "Sum"
+	    DstPort		    2
+	  }
+	  Branch {
+	    DstBlock		    "MotorTorque"
+	    DstPort		    1
+	  }
+	}
+      }
+    }
+    Line {
+      SrcBlock		      "Robot"
+      SrcPort		      2
+      DstBlock		      "Tool Position"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Sum"
+      SrcPort		      1
+      DstBlock		      "Delay"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Robot"
+      SrcPort		      1
+      Points		      [110, 0; 0, 235]
+      DstBlock		      "Sum"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Band-Limited\nWhite Noise"
+      SrcPort		      1
+      DstBlock		      "Sum"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Disturbance Generator"
+      SrcPort		      1
+      DstBlock		      "Robot"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Disturbance Generator"
+      SrcPort		      2
+      DstBlock		      "Robot"
+      DstPort		      3
+    }
+    Line {
+      SrcBlock		      "Gain for Stability Check"
+      SrcPort		      1
+      DstBlock		      "Robot"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Reference Position"
+      SrcPort		      1
+      DstBlock		      "Controller 2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Delay"
+      SrcPort		      1
+      Points		      [-290, 0; 0, -50]
+      DstBlock		      "Controller 2"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Controller 2"
+      SrcPort		      1
+      Points		      [0, 0]
+      Branch {
+	Points			[0, -70; -190, 0; 0, -105]
+	DstBlock		"Gain for Stability Check"
+	DstPort			1
+      }
+      Branch {
+	DstBlock		"TorqueComputation"
+	DstPort			2
+      }
+    }
+    Line {
+      SrcBlock		      "Disturbance Generator"
+      SrcPort		      3
+      Points		      [5, 0; 0, 100]
+      DstBlock		      "TorqueComputation"
+      DstPort		      1
+    }
+  }
+}
